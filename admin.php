@@ -1,5 +1,5 @@
 <?php
-//Vérifie si une session n'existe pas
+//Vérifie si une session n'existe pas déja
 if (session_status() === PHP_SESSION_NONE) {
     //Crée une session
     session_start();
